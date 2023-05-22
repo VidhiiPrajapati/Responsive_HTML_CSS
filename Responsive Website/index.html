@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ADVENTURE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="./style.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li  class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./Images/menubtn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+            <div class="row">
+                <div class="col">
+                    <img src="./Images/trek2.jpeg" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Trekking - or long-distance hiking - consists of walking for several days or several weeks and being entirely or partially self-sufficient.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="./Images/trek5.jpeg" alt="">
+                    <h4>Walking Holidays</h4>
+                    <p>Trekking - or long-distance hiking - consists of walking for several days or several weeks and being entirely or partially self-sufficient.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+
+
+
+    <section class="explore">
+       <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+            Trekking is an outdoor activity of walking for more than a day. It is a form of walking, undertaken with the specific purpose of exploring and enjoying the scenery.</p>
+            <a href="#" class="ctn">Learn More</a>
+       </div>
+
+
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <div class="line"></div>
+                <p>India offers plenty of opportunities for trekking in the regions through which the majestic Himalayan ranges cross.  </p>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./Images/trek8.jpg" alt="">
+                    <img src="./Images/trekmoun.jpg" alt="">
+                    <img src="./Images/trek5.jpeg " alt="">
+                    <img src="./Images/trek4.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123 Fifth Anevune,NY 10160,New York,USA |Phone no: 800-123-432 |Email:contact@example.com</p>
+        <p>Copyright @ 2020 Outdoor Adventure</p>
+    </section>
+
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
